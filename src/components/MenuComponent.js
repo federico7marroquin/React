@@ -7,7 +7,7 @@ function RenderMenuItem({ dish, onClick }) {
         <Card onClick={() => onClick(dish.id)}>
             <CardImg width="100%" src={dish.image} alt={dish.name}></CardImg>
             <CardImgOverlay>
-                <CardTitle heading>{dish.name}</CardTitle>
+                <CardTitle>{dish.name}</CardTitle>
             </CardImgOverlay>
         </Card>
     );
