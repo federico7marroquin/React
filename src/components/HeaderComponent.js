@@ -47,29 +47,29 @@ class Header extends Component {
                             <Nav navbar>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/home">
-                                        <span className="fa fa-home fa-lg"> Home </span>
+                                        <span className="fa fa-home fa-lg"></span> Home
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/aboutus">
-                                        <span className="fa fa-info fa-lg"> About us</span>
+                                        <span className="fa fa-info fa-lg"></span> About us
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/menu">
-                                        <span className="fa fa-list fa-lg"> Menu</span>
+                                        <span className="fa fa-list fa-lg"></span> Menu
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/contactus">
-                                        <span className="fa fa-address-card fa-lg"> contact us</span>
+                                        <span className="fa fa-address-card fa-lg"></span> contact us
                                     </NavLink>
                                 </NavItem>
                             </Nav>
                             <Nav className="ml-auto" navbar>
                                 <NavItem>
                                     <Button outline onClick={this.togglemodal}>
-                                        <span className="fa fa-sign-in fa-lg">Login</span>
+                                        <span className="fa fa-sign-in fa-lg"></span> Login
                                     </Button>
                                 </NavItem>
                             </Nav>
