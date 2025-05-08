@@ -8,6 +8,8 @@ import  { Configurestore } from './redux/configureStore';
 const store = Configurestore();
 
 class App extends Component {
+
+  // Testing
   
   render() {
     return (
